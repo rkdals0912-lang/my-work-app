@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 나의 하루 — 개인용 일상 루틴 & 할 일 관리 앱
 
-# Run and deploy your AI Studio app
+업무, 집안일, 개인 일정, 약속, 반복 루틴을 한 곳에서 관리하는 모바일 우선 Daily Planner입니다.
 
-This contains everything you need to run your app locally.
+## 화면 구성
+- **오늘**: 오늘의 시간별 일정, 할 일, 완료율
+- **캘린더**: 날짜별 일정/할 일 확인
+- **할 일**: 전체 목록, 상태·카테고리 필터
+- **루틴**: 매일/매주/매월 반복되는 할 일 자동 생성 관리
 
-View your app in AI Studio: https://ai.studio/apps/da36665f-2cd0-4450-9226-b53028c22c68
+## 데이터
+모든 데이터는 브라우저 `localStorage`에 저장됩니다 (별도 로그인/서버 DB 없음).
 
-## Run Locally
+## 로컬 실행
+**사전 준비:** Node.js
 
-**Prerequisites:**  Node.js
+1. 의존성 설치: `npm install`
+2. 앱 실행: `npm run dev`
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 빌드
+`npm run build` 후 `npm start`

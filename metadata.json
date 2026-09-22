@@ -1,6 +1,6 @@
 {
-  "name": "탑씰 실란트 생산관리 작업 추적기",
-  "description": "업무와 일상 루틴을 아우르는 나의 할 일 이력 추적 시스템 (체크박스 간트차트, 오늘의 할 일 요약, 실시간 감사 이력, 메모 및 특이사항 관리)",
+  "name": "나의 하루 플래너",
+  "description": "업무, 집안일, 개인 일정, 약속, 반복 루틴을 한 곳에서 관리하는 개인용 Daily Planner",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
