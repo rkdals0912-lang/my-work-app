@@ -5,10 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // GitHub Pages에 https://<사용자명>.github.io/my-work-app/ 형태로 배포되므로
-    // 저장소 이름과 동일한 하위 경로를 base로 지정합니다.
-    // (저장소 이름을 바꾸면 이 값도 함께 바꿔주세요)
-    base: '/my-work-app/',
+    // 상대 경로로 빌드하여, 실제 GitHub 저장소 이름이 무엇이든
+    // (예: my-work-app, my-work-app-main 등) 경로 불일치 없이 정상 동작합니다.
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
